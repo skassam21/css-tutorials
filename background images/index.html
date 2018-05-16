@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Shums Kassam</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body style="text-align: center; padding: 50px;">
+		<h1>Img tag of size 200px by 300px</h1>
+		<img src="shopping.jpg" style="width: 200px; height: 300px;" />
+		<p>Notice how the image is stretched. When using width and height with an img tag, it stretches it to the width and height specified.</p>
+		<h1>Background image of size 200px by 300px</h1>
+		<div style="width: 200px; height: 300px;
+			background-size: cover;
+			margin: 0 auto;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-image: url('shopping.jpg');"></div>
+		<p>Instead of using an img tag, you can create an empty div with a set width, set height, and a background image. By using the background-size css property, and the other background properties, you can make a nice photo that fills the size and is centered, and is not stretched.</p>
+	</body>
+</html>
