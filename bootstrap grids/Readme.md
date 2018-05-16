@@ -1,4 +1,4 @@
-# Font Awesome
+# Bootstrap Grids
 
 This index.html file will render the following page:
 
