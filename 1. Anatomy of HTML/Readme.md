@@ -1,6 +1,21 @@
 # 1. Anatomy of HTML
 
-The [index.html](index.html) is the basic structure of an HTML file. Each individual part of the file is described below. You can read more about each part in this [article](https://designshack.net/articles/html/what-is-html-the-anatomy-of-an-html5-document/).
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Title</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<!-- Page Content Goes Here -->
+		<h1>Hello World</h1>
+	</body>
+</html>
+```
+
+Above is the basic structure of an HTML file. Each individual part of the file is described below. You can read more about each part in this [article](https://designshack.net/articles/html/what-is-html-the-anatomy-of-an-html5-document/).
 
  ### The DOCTYPE
 
