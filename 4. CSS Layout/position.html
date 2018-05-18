@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Title</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="position.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="static">This div element has a static position. That is the default.</div>
+			<div class="relative">This div element has a relative position. The position is relative to its default position.</div>
+			<div class="fixed">This div element has a fixed position. This means it is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.</div>
+
+			<div class="absolute">
+				This div element is position absolute - positioned relative to its nearest positioned ancestor. If an absolute positioned element has no positioned ancestors (like this element), it uses the document body, and moves along with page scrolling.
+			</div>
+
+
+			<div class="relative-container">
+				This div is relative.
+
+				<div class="absolute-inner">
+					This div is absolute inside a relative container.
+				</div>
+			</div>
+
+
+		</div>
+			<div class="sticky">
+				This div is positioned sticky, and is positioned based on the user's scroll position. Watch what happens.
+			</div>
+	</body>
+</html>

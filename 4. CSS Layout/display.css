@@ -1,0 +1,16 @@
+div {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div.block {
+    display: block;
+}
+
+div.none {
+    display: none;
+}
+
+div.inline {
+    display: inline-block;
+}
