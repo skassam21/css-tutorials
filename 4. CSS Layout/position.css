@@ -54,7 +54,7 @@ div.fixed {
 div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 50px;
+    top: 300px;
     border: 3px solid #73AD21;
 }
 
