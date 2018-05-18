@@ -1,5 +1,7 @@
 # 1. Anatomy of HTML
 
+Below is the basic structure of an HTML file. 
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -15,7 +17,7 @@
 </html>
 ```
 
-Above is the basic structure of an HTML file. Each individual part of the file is described below. You can read more about each part in this [article](https://designshack.net/articles/html/what-is-html-the-anatomy-of-an-html5-document/).
+Each individual part of the file is described below. You can read more about each part in this [article](https://designshack.net/articles/html/what-is-html-the-anatomy-of-an-html5-document/).
 
  ### The DOCTYPE
 

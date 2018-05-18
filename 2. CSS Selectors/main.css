@@ -1,0 +1,32 @@
+p {
+	font-size: 20px;
+}
+
+p.red {
+	color: red;
+}
+
+p#blue {
+	color: blue;
+}
+
+p#blue.red {
+	color: magenta;
+}
+
+p.class-hover:hover {
+	color: pink;
+}
+
+.outer-container p {
+	color: purple;
+}
+
+.outer-container, .inner-container {
+	padding-left: 20px;
+}
+
+
+.outer-container > p {
+	color: green;
+}
